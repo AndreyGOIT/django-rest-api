@@ -1,0 +1,22 @@
+# Виртуальное окружение
+venv/
+.env/
+.envrc/
+
+# Базы данных
+*.sqlite3
+*.db
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Логи и среды разработки
+logs/
+.pytest_cache/
+.vscode/
+.idea/
+
+# Статические файлы (если собираются collectstatic)
+/staticfiles/
